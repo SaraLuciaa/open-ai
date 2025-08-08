@@ -2,10 +2,10 @@
 import { Message, ChatResponse, ImageGenerationResponse } from '@/types/chat';
 
 /**
- * @fileoverview API Client para la comunicación con el backend de Platzi Vision
+ * @fileoverview API Client para la comunicación con el backend de Baymax
  * 
  * Este módulo proporciona la interfaz principal para la comunicación entre el frontend
- * y el servidor de PlatziVision. Maneja específicamente:
+ * y el servidor de Baymax. Maneja específicamente:
  * 
  * - Comunicación en tiempo real con el servidor mediante Server-Sent Events (SSE)
  * - Procesamiento de mensajes del chat con streaming de respuestas
@@ -14,7 +14,7 @@ import { Message, ChatResponse, ImageGenerationResponse } from '@/types/chat';
  * Interactúa con los siguientes componentes:
  * - Components/Chat: Utiliza este cliente para enviar/recibir mensajes
  * - Types/chat.ts: Define las interfaces Message y ChatResponse utilizadas aquí
- * - PlatziVision API: Se comunica con los endpoints de chat y generación de imágenes
+ * - Baymax API: Se comunica con los endpoints de chat y generación de imágenes
  * 
  * El flujo típico de datos es:
  * 1. El usuario envía un mensaje
